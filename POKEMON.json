@@ -1,0 +1,2313 @@
+[
+    {
+      "id": 1,
+      "name": "Pikachu",
+      "type": ["Electric"],
+      "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/7/77/latest/20150621181250/Pikachu.png/300px-Pikachu.png",
+      "description": "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.",
+      "height": 0.4,
+      "weight": 6.0,
+      "abilities": ["Static", "Lightning Rod"],
+      "stats": {
+        "hp": 35,
+        "attack": 55,
+        "defense": 40,
+        "special_attack": 50,
+        "special_defense": 50,
+        "speed": 90
+      },
+      "evolutions": ["Pichu", "Pikachu", "Raichu"],
+      "egg_groups": ["Field", "Fairy"],
+      "habitat": "Forest",
+      "capture_rate": 190,
+      "base_experience": 112,
+      "moves": [
+        {
+          "move_name": "Thunder Shock",
+          "level_learned_at": 1,
+          "move_type": "Electric",
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "move_name": "Quick Attack",
+          "level_learned_at": 7,
+          "move_type": "Normal",
+          "power": 40,
+          "accuracy": 100
+        }
+      ],
+      "candy": "Pikachu Candy",
+      "candy_count": 50,
+      "spawn_chance": 0.21,
+      "avg_spawns": 21,
+      "spawn_time": "04:00",
+      "multipliers": [2.34, 2.65],
+      "weaknesses": ["Ground"]
+    },
+    {
+      "id": 2,
+      "name": "Bulbasaur",
+      "type": ["Grass", "Poison"],
+      "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/4/43/latest/20190406170624/Bulbasaur.png/300px-Bulbasaur.png",
+      "description": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
+      "height": 0.7,
+      "weight": 6.9,
+      "abilities": ["Overgrow", "Chlorophyll"],
+      "stats": {
+        "hp": 45,
+        "attack": 49,
+        "defense": 49,
+        "special_attack": 65,
+        "special_defense": 65,
+        "speed": 45
+      },
+      "evolutions": ["Bulbasaur", "Ivysaur", "Venusaur"],
+      "egg_groups": ["Monster", "Grass"],
+      "habitat": "Grassland",
+      "capture_rate": 45,
+      "base_experience": 64,
+      "moves": [
+        {
+          "move_name": "Vine Whip",
+          "level_learned_at": 9,
+          "move_type": "Grass",
+          "power": 45,
+          "accuracy": 100
+        },
+        {
+          "move_name": "Razor Leaf",
+          "level_learned_at": 13,
+          "move_type": "Grass",
+          "power": 55,
+          "accuracy": 95
+        }
+      ],
+      "candy": "Bulbasaur Candy",
+      "candy_count": 25,
+      "spawn_chance": 0.69,
+      "avg_spawns": 69,
+      "spawn_time": "20:00",
+      "multipliers": [1.58],
+      "weaknesses": ["Fire", "Ice", "Flying", "Psychic"]
+    },
+    {
+      "id": 3,
+      "name": "Charmander",
+      "type": ["Fire"],
+      "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/56/latest/20200307023245/Charmander.png/300px-Charmander.png",
+      "description": "Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail.",
+      "height": 0.6,
+      "weight": 8.5,
+      "abilities": ["Blaze", "Solar Power"],
+      "stats": {
+        "hp": 39,
+        "attack": 52,
+        "defense": 43,
+        "special_attack": 60,
+        "special_defense": 50,
+        "speed": 65
+      },
+      "evolutions": ["Charmander", "Charmeleon", "Charizard"],
+      "egg_groups": ["Monster", "Dragon"],
+      "habitat": "Mountain",
+      "capture_rate": 45,
+      "base_experience": 62,
+      "moves": [
+        {
+          "move_name": "Scratch",
+          "level_learned_at": 1,
+          "move_type": "Normal",
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "move_name": "Ember",
+          "level_learned_at": 9,
+          "move_type": "Fire",
+          "power": 40,
+          "accuracy": 100
+        }
+      ],
+      "candy": "Charmander Candy",
+      "candy_count": 25,
+      "spawn_chance": 0.253,
+      "avg_spawns": 25.3,
+      "spawn_time": "08:45",
+      "multipliers": [1.65],
+      "weaknesses": ["Water", "Ground", "Rock"]
+    },
+    {
+      "id": 4,
+      "name": "Squirtle",
+      "type": ["Water"],
+      "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/e/e3/latest/20160309230820/Squirtle.png/300px-Squirtle.png",
+      "description": "After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth.",
+      "height": 0.5,
+      "weight": 9.0,
+      "abilities": ["Torrent", "Rain Dish"],
+      "stats": {
+        "hp": 44,
+        "attack": 48,
+        "defense": 65,
+        "special_attack": 50,
+        "special_defense": 64,
+        "speed": 43
+      },
+      "evolutions": ["Squirtle", "Wartortle", "Blastoise"],
+      "egg_groups": ["Monster", "Water 1"],
+      "habitat": "Water's Edge",
+      "capture_rate": 45,
+      "base_experience": 63,
+      "moves": [
+        {
+          "move_name": "Tackle",
+          "level_learned_at": 1,
+          "move_type": "Normal",
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "move_name": "Water Gun",
+          "level_learned_at": 7,
+          "move_type": "Water",
+          "power": 40,
+          "accuracy": 100
+        }
+      ],
+      "candy": "Squirtle Candy",
+      "candy_count": 25,
+      "spawn_chance": 0.58,
+      "avg_spawns": 58,
+      "spawn_time": "07:30",
+      "multipliers": [1.6],
+      "weaknesses": ["Electric", "Grass"]
+    },
+    {
+      "id": 5,
+      "name": "Caterpie",
+      "type": ["Bug"],
+      "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/0/05/latest/20230716211653/Caterpie.png/300px-Caterpie.png",
+      "description": "For protection, it releases a horrible stench from the antennae on its head to drive away enemies.",
+      "height": 0.3,
+      "weight": 2.9,
+      "abilities": ["Shield Dust", "Run Away"],
+      "stats": {
+        "hp": 45,
+        "attack": 30,
+        "defense": 35,
+        "special_attack": 20,
+        "special_defense": 20,
+        "speed": 45
+      },
+      "evolutions": ["Caterpie", "Metapod", "Butterfree"],
+      "egg_groups": ["Bug"],
+      "habitat": "Forest",
+      "capture_rate": 255,
+      "base_experience": 39,
+      "moves": [
+        {
+          "move_name": "Tackle",
+          "level_learned_at": 1,
+          "move_type": "Normal",
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "move_name": "String Shot",
+          "level_learned_at": 1,
+          "move_type": "Bug",
+          "power": 0,
+          "accuracy": 95
+        }
+      ],
+      "candy": "Caterpie Candy",
+      "candy_count": 12,
+      "spawn_chance": 3.032,
+      "avg_spawns": 303.2,
+      "spawn_time": "16:35",
+      "multipliers": [1.05],
+      "weaknesses": ["Fire", "Flying", "Rock"]
+    },
+    {
+      "id": 6,
+      "name": "Butterfree",
+      "type": ["Bug", "Flying"],
+      "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/96/latest/20160703192952/Butterfree.png/300px-Butterfree.png",
+      "description": "In battle, it flaps its wings at high speed to release highly toxic dust into the air.",
+      "height": 1.1,
+      "weight": 32.0,
+      "abilities": ["Compound Eyes", "Tinted Lens"],
+      "stats": {
+        "hp": 60,
+        "attack": 45,
+        "defense": 50,
+        "special_attack": 90,
+        "special_defense": 80,
+        "speed": 70
+      },
+      "evolutions": ["Caterpie", "Metapod", "Butterfree"],
+      "egg_groups": ["Bug"],
+      "habitat": "Forest",
+      "capture_rate": 45,
+      "base_experience": 178,
+      "moves": [
+        {
+          "move_name": "Gust",
+          "level_learned_at": 1,
+          "move_type": "Flying",
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "move_name": "Sleep Powder",
+          "level_learned_at": 13,
+          "move_type": "Grass",
+          "power": 0,
+          "accuracy": 75
+        }
+      ],
+      "candy": "Butterfree Candy",
+      "candy_count": 50,
+      "spawn_chance": 0.022,
+      "avg_spawns": 2.2,
+      "spawn_time": "05:23",
+      "multipliers": [1.05],
+      "weaknesses": ["Fire", "Electric", "Flying", "Ice", "Rock"]
+    },
+    {
+      "id": 7,
+      "name": "Pidgey",
+      "type": ["Normal", "Flying"],
+      "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/b/b7/latest/20200307022723/Pidgey.png/300px-Pidgey.png",
+      "description": "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
+      "height": 0.3,
+      "weight": 1.8,
+      "abilities": ["Keen Eye", "Tangled Feet"],
+      "stats": {
+        "hp": 40,
+        "attack": 45,
+        "defense": 40,
+        "special_attack": 35,
+        "special_defense": 35,
+        "speed": 56
+      },
+      "evolutions": ["Pidgey", "Pidgeotto", "Pidgeot"],
+      "egg_groups": ["Flying"],
+      "habitat": "Forest",
+      "capture_rate": 255,
+      "base_experience": 50,
+      "moves": [
+        {
+          "move_name": "Tackle",
+          "level_learned_at": 1,
+          "move_type": "Normal",
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "move_name": "Sand Attack",
+          "level_learned_at": 5,
+          "move_type": "Ground",
+          "power": 0,
+          "accuracy": 100
+        }
+      ],
+      "candy": "Pidgey Candy",
+      "candy_count": 12,
+      "spawn_chance": 15.98,
+      "avg_spawns": 1.598,
+      "spawn_time": "01:34",
+      "multipliers": [1.71],
+      "weaknesses": ["Electric", "Rock"]
+    },
+    {
+      "id": 8,
+      "name": "Rattata",
+      "type": ["Normal"],
+      "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/c/c4/latest/20200307022853/Rattata.png/300px-Rattata.png",
+      "description": "Bites anything when it attacks. Small and very quick, it is a common sight in many places.",
+      "height": 0.3,
+      "weight": 3.5,
+      "abilities": ["Run Away", "Guts"],
+      "stats": {
+        "hp": 30,
+        "attack": 56,
+        "defense": 35,
+        "special_attack": 25,
+        "special_defense": 35,
+        "speed": 72
+      },
+      "evolutions": ["Rattata", "Raticate"],
+      "egg_groups": ["Field"],
+      "habitat": "Urban",
+      "capture_rate": 255,
+      "base_experience": 51,
+      "moves": [
+        {
+          "move_name": "Tackle",
+          "level_learned_at": 1,
+          "move_type": "Normal",
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "move_name": "Quick Attack",
+          "level_learned_at": 4,
+          "move_type": "Normal",
+          "power": 40,
+          "accuracy": 100
+        }
+      ],
+      "candy": "Rattata Candy",
+      "candy_count": 25,
+      "spawn_chance": 13.05,
+      "avg_spawns": 1.305,
+      "spawn_time": "01:55",
+      "multipliers": [2.55],
+      "weaknesses": ["Fighting"]
+    },
+    {
+      "id": 9,
+      "name": "Ekans",
+      "type": ["Poison"],
+      "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/1/11/latest/20230716211828/Ekans.png/300px-Ekans.png",
+      "description": "Moves silently and stealthily. Eats the eggs of birds, such as Pidgey and Spearow, whole.",
+      "height": 2.0,
+      "weight": 6.9,
+      "abilities": ["Intimidate", "Shed Skin"],
+      "stats": {
+        "hp": 35,
+        "attack": 60,
+        "defense": 44,
+        "special_attack": 40,
+        "special_defense": 54,
+        "speed": 55
+      },
+      "evolutions": ["Ekans", "Arbok"],
+      "egg_groups": ["Field", "Dragon"],
+      "habitat": "Grassland",
+      "capture_rate": 255,
+      "base_experience": 58,
+      "moves": [
+        {
+          "move_name": "Wrap",
+          "level_learned_at": 1,
+          "move_type": "Normal",
+          "power": 15,
+          "accuracy": 90
+        },
+        {
+          "move_name": "Poison Sting",
+          "level_learned_at": 5,
+          "move_type": "Poison",
+          "power": 15,
+          "accuracy": 100
+        }
+      ],
+      "candy": "Ekans Candy",
+      "candy_count": 50,
+      "spawn_chance": 2.27,
+      "avg_spawns": 227,
+      "spawn_time": "12:20",
+      "multipliers": [2.21],
+      "weaknesses": ["Ground", "Psychic"]
+    },
+{
+        "id": 10,
+        "name": "Jigglypuff",
+        "type": ["Normal", "Fairy"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/a/af/latest/20150110232910/Jigglypuff.png/300px-Jigglypuff.png",
+        "description": "Jigglypuff uses its cute voice to lull its opponents to sleep. It is known for its ability to inflate its body to double its size.",
+        "height": 0.5,
+        "weight": 5.5,
+        "abilities": ["Cute Charm", "Competitive"],
+        "stats": {
+        "hp": 115,
+        "attack": 45,
+        "defense": 20,
+        "special_attack": 45,
+        "special_defense": 25,
+        "speed": 20
+        },
+        "evolutions": ["Igglybuff", "Jigglypuff", "Wigglytuff"],
+        "egg_groups": ["Fairy", "Field"],
+        "habitat": "Urban",
+        "capture_rate": 170,
+        "base_experience": 95,
+        "moves": [
+        {
+            "move_name": "Sing",
+            "level_learned_at": 1,
+            "move_type": "Normal",
+            "power": 0,
+            "accuracy": 55
+        },
+        {
+            "move_name": "Pound",
+            "level_learned_at": 1,
+            "move_type": "Normal",
+            "power": 40,
+            "accuracy": 100
+        }
+        ],
+        "candy": "Jigglypuff Candy",
+        "candy_count": 50,
+        "spawn_chance": 0.2,
+        "avg_spawns": 20,
+        "spawn_time": "10:00",
+        "multipliers": [1.5],
+        "weaknesses": ["Steel", "Poison"]
+    },
+    {
+        "id": 11,
+        "name": "Meowth",
+        "type": ["Normal"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/99/latest/20160904210550/Meowth.png/300px-Meowth.png",
+        "description": "Meowth is known for its mischievous behavior and for walking on two legs. It loves shiny objects and will steal them whenever it can.",
+        "height": 0.4,
+        "weight": 4.2,
+        "abilities": ["Pickup", "Technician"],
+        "stats": {
+        "hp": 40,
+        "attack": 45,
+        "defense": 35,
+        "special_attack": 40,
+        "special_defense": 40,
+        "speed": 90
+        },
+        "evolutions": ["Meowth", "Persian"],
+        "egg_groups": ["Field"],
+        "habitat": "Urban",
+        "capture_rate": 255,
+        "base_experience": 58,
+        "moves": [
+        {
+            "move_name": "Scratch",
+            "level_learned_at": 1,
+            "move_type": "Normal",
+            "power": 40,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Bite",
+            "level_learned_at": 5,
+            "move_type": "Dark",
+            "power": 60,
+            "accuracy": 100
+        }
+        ],
+        "candy": "Meowth Candy",
+        "candy_count": 50,
+        "spawn_chance": 0.15,
+        "avg_spawns": 15,
+        "spawn_time": "09:00",
+        "multipliers": [1.6],
+        "weaknesses": ["Fighting"]
+    },
+    {
+        "id": 12,
+        "name": "Psyduck",
+        "type": ["Water"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/3/32/latest/20230614194705/Psyduck.png/300px-Psyduck.png",
+        "description": "Psyduck is a water-type Pokémon known for its constant headache, which causes it to experience powerful psychic abilities when the headache becomes too much.",
+        "height": 0.8,
+        "weight": 19.6,
+        "abilities": ["Cloud Nine", "Damp"],
+        "stats": {
+        "hp": 50,
+        "attack": 52,
+        "defense": 48,
+        "special_attack": 65,
+        "special_defense": 50,
+        "speed": 55
+        },
+        "evolutions": ["Psyduck", "Golduck"],
+        "egg_groups": ["Water 1", "Field"],
+        "habitat": "Water's Edge",
+        "capture_rate": 190,
+        "base_experience": 64,
+        "moves": [
+        {
+            "move_name": "Scratch",
+            "level_learned_at": 1,
+            "move_type": "Normal",
+            "power": 40,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Water Gun",
+            "level_learned_at": 10,
+            "move_type": "Water",
+            "power": 40,
+            "accuracy": 100
+        }
+        ],
+        "candy": "Psyduck Candy",
+        "candy_count": 50,
+        "spawn_chance": 0.16,
+        "avg_spawns": 16,
+        "spawn_time": "09:30",
+        "multipliers": [1.5],
+        "weaknesses": ["Electric", "Grass"]
+    },
+    {
+        "id": 13,
+        "name": "Machop",
+        "type": ["Fighting"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/2/2b/latest/20230327203924/Machop.png/300px-Machop.png",
+        "description": "Machop is a tough Pokémon known for its incredible strength and its desire to train to become even more powerful.",
+        "height": 0.8,
+        "weight": 19.5,
+        "abilities": ["Guts", "No Guard"],
+        "stats": {
+        "hp": 70,
+        "attack": 80,
+        "defense": 50,
+        "special_attack": 35,
+        "special_defense": 35,
+        "speed": 35
+        },
+        "evolutions": ["Machop", "Machoke", "Machamp"],
+        "egg_groups": ["Human-Like"],
+        "habitat": "Cave",
+        "capture_rate": 180,
+        "base_experience": 61,
+        "moves": [
+        {
+            "move_name": "Low Kick",
+            "level_learned_at": 1,
+            "move_type": "Fighting",
+            "power": 60,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Karate Chop",
+            "level_learned_at": 1,
+            "move_type": "Fighting",
+            "power": 50,
+            "accuracy": 100
+        }
+        ],
+        "candy": "Machop Candy",
+        "candy_count": 25,
+        "spawn_chance": 0.2,
+        "avg_spawns": 20,
+        "spawn_time": "07:30",
+        "multipliers": [1.7],
+        "weaknesses": ["Flying", "Psychic", "Fairy"]
+    },
+    {
+        "id": 14,
+        "name": "Geodude",
+        "type": ["Rock", "Ground"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/1/12/latest/20230620061559/Geodude.png/300px-Geodude.png",
+        "description": "Geodude has a tough exterior made of rocks. It is capable of lifting boulders many times its size.",
+        "height": 0.4,
+        "weight": 20.0,
+        "abilities": ["Rock Head", "Sturdy"],
+        "stats": {
+        "hp": 40,
+        "attack": 80,
+        "defense": 100,
+        "special_attack": 30,
+        "special_defense": 30,
+        "speed": 20
+        },
+        "evolutions": ["Geodude", "Graveler", "Golem"],
+        "egg_groups": ["Mineral"],
+        "habitat": "Cave",
+        "capture_rate": 180,
+        "base_experience": 60,
+        "moves": [
+        {
+            "move_name": "Tackle",
+            "level_learned_at": 1,
+            "move_type": "Normal",
+            "power": 40,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Mud Sport",
+            "level_learned_at": 1,
+            "move_type": "Electric",
+            "power": 0,
+            "accuracy": 100
+        }
+        ],
+        "candy": "Geodude Candy",
+        "candy_count": 25,
+        "spawn_chance": 0.12,
+        "avg_spawns": 12,
+        "spawn_time": "23:00",
+        "multipliers": [2.1],
+        "weaknesses": ["Water", "Grass", "Ice", "Fighting", "Ground", "Steel"]
+    },
+
+
+    {
+        "id": 15,
+        "name": "Ponyta",
+        "type": ["Fire"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/5f/latest/20230628041337/Ponyta.png/300px-Ponyta.png",
+        "description": "Ponyta is a small horse-like Pokémon with a fiery mane and tail. It is known for its incredible speed and agility.",
+        "height": 0.8,
+        "weight": 30.0,
+        "abilities": ["Run Away", "Flash Fire"],
+        "stats": {
+        "hp": 50,
+        "attack": 85,
+        "defense": 55,
+        "special_attack": 65,
+        "special_defense": 50,
+        "speed": 90
+        },
+        "evolutions": ["Ponyta", "Rapidash"],
+        "egg_groups": ["Field"],
+        "habitat": "Grassland",
+        "capture_rate": 190,
+        "base_experience": 60,
+        "moves": [
+        {
+            "move_name": "Tackle",
+            "level_learned_at": 1,
+            "move_type": "Normal",
+            "power": 40,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Ember",
+            "level_learned_at": 10,
+            "move_type": "Fire",
+            "power": 40,
+            "accuracy": 100
+        }
+        ],
+        "candy": "Ponyta Candy",
+        "candy_count": 50,
+        "spawn_chance": 0.08,
+        "avg_spawns": 8,
+        "spawn_time": "23:00",
+        "multipliers": [1.5],
+        "weaknesses": ["Water", "Ground", "Rock"]
+    },
+    {
+        "id": 16,
+        "name": "Machoke",
+        "type": ["Fighting"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/c/ca/latest/20200411223604/Machoke.png/300px-Machoke.png",
+        "description": "Machoke is a strong and tough Pokémon known for its well-built physique. It trains to develop more muscle and strength.",
+        "height": 1.5,
+        "weight": 70.5,
+        "abilities": ["Guts", "No Guard"],
+        "stats": {
+        "hp": 80,
+        "attack": 100,
+        "defense": 70,
+        "special_attack": 50,
+        "special_defense": 60,
+        "speed": 45
+        },
+        "evolutions": ["Machop", "Machoke", "Machamp"],
+        "egg_groups": ["Human-Like"],
+        "habitat": "Cave",
+        "capture_rate": 120,
+        "base_experience": 147,
+        "moves": [
+        {
+            "move_name": "Low Sweep",
+            "level_learned_at": 1,
+            "move_type": "Fighting",
+            "power": 65,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Karate Chop",
+            "level_learned_at": 1,
+            "move_type": "Fighting",
+            "power": 50,
+            "accuracy": 100
+        }
+        ],
+        "candy": "Machoke Candy",
+        "candy_count": 100,
+        "spawn_chance": 0.15,
+        "avg_spawns": 15,
+        "spawn_time": "06:00",
+        "multipliers": [1.7],
+        "weaknesses": ["Flying", "Psychic", "Fairy"]
+    },
+    {
+        "id": 17,
+        "name": "Zubat",
+        "type": ["Poison", "Flying"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/6/67/latest/20230617053751/Zubat.png/300px-Zubat.png",
+        "description": "Zubat is a small bat-like Pokémon. It is known for its ability to navigate in the dark using echolocation.",
+        "height": 0.8,
+        "weight": 7.5,
+        "abilities": ["Inner Focus", "Infiltrator"],
+        "stats": {
+        "hp": 40,
+        "attack": 45,
+        "defense": 35,
+        "special_attack": 30,
+        "special_defense": 40,
+        "speed": 45
+        },
+        "evolutions": ["Zubat", "Golbat"],
+        "egg_groups": ["Flying"],
+        "habitat": "Cave",
+        "capture_rate": 255,
+        "base_experience": 49,
+        "moves": [
+        {
+            "move_name": "Leech Life",
+            "level_learned_at": 1,
+            "move_type": "Bug",
+            "power": 20,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Supersonic",
+            "level_learned_at": 1,
+            "move_type": "Normal",
+            "power": 0,
+            "accuracy": 55
+        }
+        ],
+        "candy": "Zubat Candy",
+        "candy_count": 50,
+        "spawn_chance": 0.18,
+        "avg_spawns": 18,
+        "spawn_time": "04:00",
+        "multipliers": [2.0],
+        "weaknesses": ["Electric", "Psychic", "Ice"]
+    },
+    {
+        "id": 18,
+        "name": "Poliwag",
+        "type": ["Water"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/90/latest/20230620061036/Poliwag.png/300px-Poliwag.png",
+        "description": "Poliwag is a small, tadpole-like Pokémon. It is known for the spiral pattern on its belly, which swirls as it swims.",
+        "height": 0.6,
+        "weight": 12.4,
+        "abilities": ["Water Absorb", "Damp"],
+        "stats": {
+        "hp": 40,
+        "attack": 50,
+        "defense": 40,
+        "special_attack": 40,
+        "special_defense": 40,
+        "speed": 90
+        },
+        "evolutions": ["Poliwag", "Poliwhirl", "Poliwrath"],
+        "egg_groups": ["Water 1", "Field"],
+        "habitat": "Water's Edge",
+        "capture_rate": 255,
+        "base_experience": 60,
+        "moves": [
+        {
+            "move_name": "Water Gun",
+            "level_learned_at": 1,
+            "move_type": "Water",
+            "power": 40,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Hypnosis",
+            "level_learned_at": 5,
+            "move_type": "Psychic",
+            "power": 0,
+            "accuracy": 60
+        }
+        ],
+        "candy": "Poliwag Candy",
+        "candy_count": 50,
+        "spawn_chance": 0.2,
+        "avg_spawns": 20,
+        "spawn_time": "14:00",
+        "multipliers": [1.5],
+        "weaknesses": ["Electric", "Grass"]
+    },
+    {
+        "id": 19,
+        "name": "Abra",
+        "type": ["Psychic"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/f/f6/latest/20200411223435/Abra.png/300px-Abra.png",
+        "description": "Abra is a Pokémon that uses its psychic powers to teleport away when it senses danger. It is incredibly hard to catch.",
+        "height": 0.9,
+        "weight": 19.5,
+        "abilities": ["Synchronize", "Inner Focus"],
+        "stats": {
+        "hp": 25,
+        "attack": 20,
+        "defense": 15,
+        "special_attack": 105,
+        "special_defense": 55,
+        "speed": 90
+        },
+        "evolutions": ["Abra", "Kadabra", "Alakazam"],
+        "egg_groups": ["Human-Like"],
+        "habitat": "Urban",
+        "capture_rate": 200,
+        "base_experience": 62,
+        "moves": [
+        {
+            "move_name": "Teleport",
+            "level_learned_at": 1,
+            "move_type": "Psychic",
+            "power": 0,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Confusion",
+            "level_learned_at": 1,
+            "move_type": "Psychic",
+            "power": 50,
+            "accuracy": 100
+        }
+        ],
+        "candy": "Abra Candy",
+        "candy_count": 25,
+        "spawn_chance": 0.1,
+        "avg_spawns": 10,
+        "spawn_time": "02:00",
+        "multipliers": [1.9],
+        "weaknesses": ["Bug", "Ghost", "Dark"]
+    },
+
+    {
+        "id": 20,
+        "name": "Kadabra",
+        "type": ["Psychic"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/b/b0/latest/20220912175715/Kadabra.png/300px-Kadabra.png",
+        "description": "Kadabra is a Psychic-type Pokémon known for its high intelligence and psychic powers, which it amplifies using its spoon.",
+        "height": 1.3,
+        "weight": 56.5,
+        "abilities": ["Synchronize", "Inner Focus"],
+        "stats": {
+        "hp": 40,
+        "attack": 35,
+        "defense": 35,
+        "special_attack": 120,
+        "special_defense": 70,
+        "speed": 105
+        },
+        "evolutions": ["Abra", "Kadabra", "Alakazam"],
+        "egg_groups": ["Human-Like"],
+        "habitat": "Urban",
+        "capture_rate": 50,
+        "base_experience": 140,
+        "moves": [
+        {
+            "move_name": "Confusion",
+            "level_learned_at": 1,
+            "move_type": "Psychic",
+            "power": 50,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Kinesis",
+            "level_learned_at": 1,
+            "move_type": "Psychic",
+            "power": 0,
+            "accuracy": 80
+        }
+        ],
+        "candy": "Kadabra Candy",
+        "candy_count": 100,
+        "spawn_chance": 0.08,
+        "avg_spawns": 8,
+        "spawn_time": "19:00",
+        "multipliers": [2.0],
+        "weaknesses": ["Bug", "Ghost", "Dark"]
+    },
+    {
+        "id": 21,
+        "name": "Alakazam",
+        "type": ["Psychic"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/f/f5/latest/20230716211853/Alakazam.png/300px-Alakazam.png",
+        "description": "Alakazam is a Psychic-type Pokémon with a high level of intellect and psychic abilities. It uses spoons to enhance its telekinetic powers.",
+        "height": 1.5,
+        "weight": 48.0,
+        "abilities": ["Synchronize", "Inner Focus"],
+        "stats": {
+        "hp": 55,
+        "attack": 50,
+        "defense": 45,
+        "special_attack": 135,
+        "special_defense": 95,
+        "speed": 120
+        },
+        "evolutions": ["Abra", "Kadabra", "Alakazam"],
+        "egg_groups": ["Human-Like"],
+        "habitat": "Urban",
+        "capture_rate": 50,
+        "base_experience": 225,
+        "moves": [
+        {
+            "move_name": "Psychic",
+            "level_learned_at": 1,
+            "move_type": "Psychic",
+            "power": 90,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Shadow Ball",
+            "level_learned_at": 1,
+            "move_type": "Ghost",
+            "power": 80,
+            "accuracy": 100
+        }
+        ],
+        "candy": "Alakazam Candy",
+        "candy_count": 200,
+        "spawn_chance": 0.05,
+        "avg_spawns": 5,
+        "spawn_time": "04:00",
+        "multipliers": [2.5],
+        "weaknesses": ["Bug", "Ghost", "Dark"]
+    },
+    {
+        "id": 22,
+        "name": "Machamp",
+        "type": ["Fighting"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/b/bf/latest/20230614200701/Machamp.png/300px-Machamp.png",
+        "description": "Machamp is a Fighting-type Pokémon known for its immense strength. It has four muscular arms and is a skilled fighter.",
+        "height": 1.6,
+        "weight": 130.0,
+        "abilities": ["Guts", "No Guard"],
+        "stats": {
+        "hp": 90,
+        "attack": 130,
+        "defense": 80,
+        "special_attack": 65,
+        "special_defense": 85,
+        "speed": 55
+        },
+        "evolutions": ["Machop", "Machoke", "Machamp"],
+        "egg_groups": ["Human-Like"],
+        "habitat": "Cave",
+        "capture_rate": 45,
+        "base_experience": 225,
+        "moves": [
+        {
+            "move_name": "Dynamic Punch",
+            "level_learned_at": 1,
+            "move_type": "Fighting",
+            "power": 100,
+            "accuracy": 50
+        },
+        {
+            "move_name": "Submission",
+            "level_learned_at": 1,
+            "move_type": "Fighting",
+            "power": 80,
+            "accuracy": 80
+        }
+        ],
+        "candy": "Machamp Candy",
+        "candy_count": 200,
+        "spawn_chance": 0.1,
+        "avg_spawns": 10,
+        "spawn_time": "09:30",
+        "multipliers": [1.8],
+        "weaknesses": ["Flying", "Psychic", "Fairy"]
+    },
+    {
+        "id": 23,
+        "name": "Tentacool",
+        "type": ["Water", "Poison"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/4/43/latest/20230617053650/Tentacool.png/300px-Tentacool.png",
+        "description": "Tentacool is a jellyfish-like Pokémon that lives in the water. It releases toxic substances to defend itself.",
+        "height": 0.9,
+        "weight": 35.0,
+        "abilities": ["Clear Body", "Liquid Ooze"],
+        "stats": {
+        "hp": 40,
+        "attack": 40,
+        "defense": 35,
+        "special_attack": 50,
+        "special_defense": 100,
+        "speed": 70
+        },
+        "evolutions": ["Tentacool", "Tentacruel"],
+        "egg_groups": ["Water 3"],
+        "habitat": "Water's Edge",
+        "capture_rate": 190,
+        "base_experience": 63,
+        "moves": [
+        {
+            "move_name": "Poison Sting",
+            "level_learned_at": 1,
+            "move_type": "Poison",
+            "power": 15,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Water Gun",
+            "level_learned_at": 10,
+            "move_type": "Water",
+            "power": 40,
+            "accuracy": 100
+        }
+        ],
+        "candy": "Tentacool Candy",
+        "candy_count": 50,
+        "spawn_chance": 0.16,
+        "avg_spawns": 16,
+        "spawn_time": "18:30",
+        "multipliers": [2.0],
+        "weaknesses": ["Electric", "Ground", "Psychic"]
+    },
+    {
+        "id": 24,
+        "name": "Tentacruel",
+        "type": ["Water", "Poison"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/7/78/latest/20230617053655/Tentacruel.png/300px-Tentacruel.png",
+        "description": "Tentacruel is the evolved form of Tentacool. It is known for its long, poisonous tentacles and its ability to generate toxic fluids.",
+        "height": 1.6,
+        "weight": 55.0,
+        "abilities": ["Clear Body", "Liquid Ooze"],
+        "stats": {
+        "hp": 80,
+        "attack": 70,
+        "defense": 65,
+        "special_attack": 80,
+        "special_defense": 120,
+        "speed": 100
+        },
+        "evolutions": ["Tentacool", "Tentacruel"],
+        "egg_groups": ["Water 3"],
+        "habitat": "Water's Edge",
+        "capture_rate": 60,
+        "base_experience": 181,
+        "moves": [
+        {
+            "move_name": "Sludge Bomb",
+            "level_learned_at": 1,
+            "move_type": "Poison",
+            "power": 90,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Hydro Pump",
+            "level_learned_at": 1,
+            "move_type": "Water",
+            "power": 110,
+            "accuracy": 80
+        }
+        ],
+        "candy": "Tentacool Candy",
+        "candy_count": 100,
+        "spawn_chance": 0.07,
+        "avg_spawns": 7,
+        "spawn_time": "23:30",
+        "multipliers": [2.1],
+        "weaknesses": ["Electric", "Ground", "Psychic"]
+},
+    {
+        "id": 25,
+        "name": "Pikachu",
+        "type": ["Electric"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/7/77/latest/20150621181250/Pikachu.png/300px-Pikachu.png",
+        "description": "Pikachu is a small, yellow, Electric-type Pokémon and one of the most well-known Pokémon. It evolves from Pichu and is the mascot of the franchise.",
+        "height": 0.4,
+        "weight": 6.0,
+        "abilities": ["Static", "Lightning Rod"],
+        "stats": {
+        "hp": 35,
+        "attack": 55,
+        "defense": 40,
+        "special_attack": 50,
+        "special_defense": 50,
+        "speed": 90
+        },
+        "evolutions": ["Pichu", "Pikachu", "Raichu"],
+        "egg_groups": ["Field", "Fairy"],
+        "habitat": "Forest",
+        "capture_rate": 190,
+        "base_experience": 112,
+        "moves": [
+        {
+            "move_name": "Thunderbolt",
+            "level_learned_at": 1,
+            "move_type": "Electric",
+            "power": 90,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Quick Attack",
+            "level_learned_at": 1,
+            "move_type": "Normal",
+            "power": 40,
+            "accuracy": 100
+        }
+        ],
+        "candy": "Pikachu Candy",
+        "candy_count": 50,
+        "spawn_chance": 0.15,
+        "avg_spawns": 15,
+        "spawn_time": "06:00",
+        "multipliers": [2.1],
+        "weaknesses": ["Ground"]
+    },
+    {
+        "id": 26,
+        "name": "Raichu",
+        "type": ["Electric"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/3/34/latest/20160815220038/Raichu.png/300px-Raichu.png",
+        "description": "Raichu is the evolved form of Pikachu. It is faster and more powerful, with an even higher level of electrical power.",
+        "height": 0.8,
+        "weight": 30.0,
+        "abilities": ["Static", "Lightning Rod"],
+        "stats": {
+        "hp": 60,
+        "attack": 90,
+        "defense": 55,
+        "special_attack": 90,
+        "special_defense": 80,
+        "speed": 110
+        },
+        "evolutions": ["Pikachu", "Raichu"],
+        "egg_groups": ["Field", "Fairy"],
+        "habitat": "Forest",
+        "capture_rate": 90,
+        "base_experience": 218,
+        "moves": [
+        {
+            "move_name": "Thunderbolt",
+            "level_learned_at": 1,
+            "move_type": "Electric",
+            "power": 90,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Volt Tackle",
+            "level_learned_at": 1,
+            "move_type": "Electric",
+            "power": 120,
+            "accuracy": 100
+        }
+        ],
+        "candy": "Pikachu Candy",
+        "candy_count": 100,
+        "spawn_chance": 0.05,
+        "avg_spawns": 5,
+        "spawn_time": "08:00",
+        "multipliers": [2.0],
+        "weaknesses": ["Ground"]
+    },
+    {
+        "id": 27,
+        "name": "Sandshrew",
+        "type": ["Ground"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/d/df/latest/20230620060651/Sandshrew.png/300px-Sandshrew.png",
+        "description": "Sandshrew is a small, mouse-like Pokémon with a body covered in hard, protective scales. It is skilled at burrowing.",
+        "height": 0.6,
+        "weight": 12.0,
+        "abilities": ["Sand Veil", "Sand Rush"],
+        "stats": {
+        "hp": 50,
+        "attack": 75,
+        "defense": 85,
+        "special_attack": 20,
+        "special_defense": 30,
+        "speed": 40
+        },
+        "evolutions": ["Sandshrew", "Sandslash"],
+        "egg_groups": ["Field"],
+        "habitat": "Desert",
+        "capture_rate": 255,
+        "base_experience": 60,
+        "moves": [
+        {
+            "move_name": "Scratch",
+            "level_learned_at": 1,
+            "move_type": "Normal",
+            "power": 40,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Sand Attack",
+            "level_learned_at": 1,
+            "move_type": "Normal",
+            "power": 0,
+            "accuracy": 100
+        }
+        ],
+        "candy": "Sandshrew Candy",
+        "candy_count": 50,
+        "spawn_chance": 0.18,
+        "avg_spawns": 18,
+        "spawn_time": "20:00",
+        "multipliers": [1.9],
+        "weaknesses": ["Water", "Ice", "Grass"]
+    },
+    {
+        "id": 28,
+        "name": "Sandslash",
+        "type": ["Ground"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/1/13/latest/20230620060657/Sandslash.png/300px-Sandslash.png",
+        "description": "Sandslash is the evolved form of Sandshrew. It is a tough Pokémon with sharp claws, capable of digging through the earth.",
+        "height": 1.0,
+        "weight": 29.5,
+        "abilities": ["Sand Veil", "Sand Rush"],
+        "stats": {
+        "hp": 75,
+        "attack": 100,
+        "defense": 110,
+        "special_attack": 45,
+        "special_defense": 55,
+        "speed": 65
+        },
+        "evolutions": ["Sandshrew", "Sandslash"],
+        "egg_groups": ["Field"],
+        "habitat": "Desert",
+        "capture_rate": 90,
+        "base_experience": 158,
+        "moves": [
+        {
+            "move_name": "Earthquake",
+            "level_learned_at": 1,
+            "move_type": "Ground",
+            "power": 100,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Sand Tomb",
+            "level_learned_at": 1,
+            "move_type": "Ground",
+            "power": 35,
+            "accuracy": 85
+        }
+        ],
+        "candy": "Sandshrew Candy",
+        "candy_count": 100,
+        "spawn_chance": 0.1,
+        "avg_spawns": 10,
+        "spawn_time": "22:00",
+        "multipliers": [2.0],
+        "weaknesses": ["Water", "Ice", "Grass"]
+    },
+    {
+        "id": 29,
+        "name": "Nidoran",
+        "type": ["Poison"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/c/c8/latest/20230613021248/Nidoran♀.png/300px-Nidoran♀.png",
+        "description": "Nidoran is a small, rabbit-like Pokémon with a poisonous barb on its back. It is known for its aggressive nature when threatened.",
+        "height": 0.4,
+        "weight": 7.0,
+        "abilities": ["Poison Point", "Rivalry"],
+        "stats": {
+        "hp": 55,
+        "attack": 47,
+        "defense": 52,
+        "special_attack": 40,
+        "special_defense": 40,
+        "speed": 41
+        },
+        "evolutions": ["Nidoran", "Nidorina", "Nidoqueen"],
+        "egg_groups": ["Monster", "Field"],
+        "habitat": "Grassland",
+        "capture_rate": 235,
+        "base_experience": 57,
+        "moves": [
+        {
+            "move_name": "Poison Sting",
+            "level_learned_at": 1,
+            "move_type": "Poison",
+            "power": 15,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Growl",
+            "level_learned_at": 1,
+            "move_type": "Normal",
+            "power": 0,
+            "accuracy": 100
+        }
+        ],
+        "candy": "Nidoran♀ Candy",
+        "candy_count": 50,
+        "spawn_chance": 0.2,
+        "avg_spawns": 20,
+        "spawn_time": "16:00",
+        "multipliers": [1.7],
+        "weaknesses": ["Ground", "Psychic"]
+},
+    {
+        "id": 30,
+        "name": "Nidorina",
+        "type": ["Poison"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/3/31/latest/20230613021249/Nidorina.png/300px-Nidorina.png",
+        "description": "Nidorina is the evolved form of Nidoran♀. It is a bipedal, blue Pokémon with spikes on its back and a gentle nature, though it can become fierce when protecting its territory.",
+        "height": 0.8,
+        "weight": 20.0,
+        "abilities": ["Poison Point", "Rivalry"],
+        "stats": {
+        "hp": 70,
+        "attack": 62,
+        "defense": 67,
+        "special_attack": 55,
+        "special_defense": 55,
+        "speed": 56
+        },
+        "evolutions": ["Nidoran♀", "Nidorina", "Nidoqueen"],
+        "egg_groups": ["Monster", "Field"],
+        "habitat": "Grassland",
+        "capture_rate": 120,
+        "base_experience": 120,
+        "moves": [
+        {
+            "move_name": "Double Kick",
+            "level_learned_at": 1,
+            "move_type": "Fighting",
+            "power": 30,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Poison Fang",
+            "level_learned_at": 1,
+            "move_type": "Poison",
+            "power": 50,
+            "accuracy": 100
+        }
+        ],
+        "candy": "Nidoran♀ Candy",
+        "candy_count": 100,
+        "spawn_chance": 0.12,
+        "avg_spawns": 12,
+        "spawn_time": "18:00",
+        "multipliers": [1.8],
+        "weaknesses": ["Ground", "Psychic"]
+    },
+    {
+        "id": 31,
+        "name": "Nidoqueen",
+        "type": ["Poison", "Ground"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/4/43/latest/20230613021302/Nidoqueen.png/300px-Nidoqueen.png",
+        "description": "Nidoqueen is the final evolution of Nidoran♀. A strong and powerful Pokémon, it uses its toxic abilities and large claws to defend its territory.",
+        "height": 1.3,
+        "weight": 60.0,
+        "abilities": ["Poison Point", "Rivalry"],
+        "stats": {
+        "hp": 90,
+        "attack": 92,
+        "defense": 87,
+        "special_attack": 75,
+        "special_defense": 85,
+        "speed": 76
+        },
+        "evolutions": ["Nidoran♀", "Nidorina", "Nidoqueen"],
+        "egg_groups": ["Monster", "Field"],
+        "habitat": "Grassland",
+        "capture_rate": 60,
+        "base_experience": 227,
+        "moves": [
+        {
+            "move_name": "Earthquake",
+            "level_learned_at": 1,
+            "move_type": "Ground",
+            "power": 100,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Toxic Spikes",
+            "level_learned_at": 1,
+            "move_type": "Poison",
+            "power": 0,
+            "accuracy": 100
+        }
+        ],
+        "candy": "Nidoran♀ Candy",
+        "candy_count": 100,
+        "spawn_chance": 0.05,
+        "avg_spawns": 5,
+        "spawn_time": "22:00",
+        "multipliers": [2.0],
+        "weaknesses": ["Water", "Ice", "Psychic"]
+    },
+    {
+        "id": 32,
+        "name": "Nidoran♂",
+        "type": ["Poison"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/6/60/latest/20230613021056/Nidoran♂.png/300px-Nidoran♂.png",
+        "description": "Nidoran♂ is a small, blue Pokémon with a horn and sharp features. It is the male counterpart to Nidoran♀ and has a more aggressive nature.",
+        "height": 0.5,
+        "weight": 9.0,
+        "abilities": ["Poison Point", "Rivalry"],
+        "stats": {
+        "hp": 46,
+        "attack": 57,
+        "defense": 40,
+        "special_attack": 40,
+        "special_defense": 40,
+        "speed": 50
+        },
+        "evolutions": ["Nidoran♂", "Nidorino", "Nidoking"],
+        "egg_groups": ["Monster", "Field"],
+        "habitat": "Grassland",
+        "capture_rate": 235,
+        "base_experience": 58,
+        "moves": [
+        {
+            "move_name": "Poison Sting",
+            "level_learned_at": 1,
+            "move_type": "Poison",
+            "power": 15,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Leer",
+            "level_learned_at": 1,
+            "move_type": "Normal",
+            "power": 0,
+            "accuracy": 100
+        }
+        ],
+        "candy": "Nidoran♂ Candy",
+        "candy_count": 50,
+        "spawn_chance": 0.22,
+        "avg_spawns": 22,
+        "spawn_time": "10:00",
+        "multipliers": [1.7],
+        "weaknesses": ["Ground", "Psychic"]
+    },
+    {
+        "id": 33,
+        "name": "Nidorino",
+        "type": ["Poison"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/7/7a/latest/20230613021105/Nidorino.png/300px-Nidorino.png",
+        "description": "Nidorino is the evolved form of Nidoran♂. It is more aggressive and dangerous, known for its horn that can be used to strike opponents.",
+        "height": 0.9,
+        "weight": 19.5,
+        "abilities": ["Poison Point", "Rivalry"],
+        "stats": {
+        "hp": 61,
+        "attack": 74,
+        "defense": 70,
+        "special_attack": 55,
+        "special_defense": 55,
+        "speed": 65
+        },
+        "evolutions": ["Nidoran♂", "Nidorino", "Nidoking"],
+        "egg_groups": ["Monster", "Field"],
+        "habitat": "Grassland",
+        "capture_rate": 120,
+        "base_experience": 145,
+        "moves": [
+        {
+            "move_name": "Horn Attack",
+            "level_learned_at": 1,
+            "move_type": "Normal",
+            "power": 65,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Poison Sting",
+            "level_learned_at": 1,
+            "move_type": "Poison",
+            "power": 15,
+            "accuracy": 100
+        }
+        ],
+        "candy": "Nidoran♂ Candy",
+        "candy_count": 100,
+        "spawn_chance": 0.18,
+        "avg_spawns": 18,
+        "spawn_time": "14:00",
+        "multipliers": [1.8],
+        "weaknesses": ["Ground", "Psychic"]
+    },
+    {
+        "id": 34,
+        "name": "Nidoking",
+        "type": ["Poison", "Ground"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/7/76/latest/20230613021117/Nidoking.png/300px-Nidoking.png",
+        "description": "Nidoking is the evolved form of Nidorino. It is a powerful and intimidating Pokémon, using its horns and ground-based attacks to defeat opponents.",
+        "height": 1.4,
+        "weight": 62.0,
+        "abilities": ["Poison Point", "Rivalry"],
+        "stats": {
+        "hp": 81,
+        "attack": 102,
+        "defense": 77,
+        "special_attack": 85,
+        "special_defense": 75,
+        "speed": 85
+        },
+        "evolutions": ["Nidoran♂", "Nidorino", "Nidoking"],
+        "egg_groups": ["Monster", "Field"],
+        "habitat": "Grassland",
+        "capture_rate": 45,
+        "base_experience": 250,
+        "moves": [
+        {
+            "move_name": "Earthquake",
+            "level_learned_at": 1,
+            "move_type": "Ground",
+            "power": 100,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Poison Jab",
+            "level_learned_at": 1,
+            "move_type": "Poison",
+            "power": 80,
+            "accuracy": 100
+        }
+        ],
+        "candy": "Nidoran♂ Candy",
+        "candy_count": 100,
+        "spawn_chance": 0.05,
+        "avg_spawns": 5,
+        "spawn_time": "08:00",
+        "multipliers": [2.1],
+        "weaknesses": ["Water", "Ice", "Psychic"]
+},
+    {
+        "id": 35,
+        "name": "Clefairy",
+        "type": ["Fairy"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/d/d2/latest/20230717180740/Clefairy.png/300px-Clefairy.png",
+        "description": "Clefairy is a small, pink Pokémon that is often associated with the moon. It is known for its mysterious nature and its ability to use the Moon Stone to evolve.",
+        "height": 0.6,
+        "weight": 7.5,
+        "abilities": ["Cute Charm", "Magic Guard"],
+        "stats": {
+        "hp": 70,
+        "attack": 45,
+        "defense": 48,
+        "special_attack": 60,
+        "special_defense": 65,
+        "speed": 35
+        },
+        "evolutions": ["Clefairy", "Clefable"],
+        "egg_groups": ["Fairy"],
+        "habitat": "Cave",
+        "capture_rate": 150,
+        "base_experience": 113,
+        "moves": [
+        {
+            "move_name": "Moonblast",
+            "level_learned_at": 1,
+            "move_type": "Fairy",
+            "power": 95,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Sing",
+            "level_learned_at": 1,
+            "move_type": "Normal",
+            "power": 0,
+            "accuracy": 55
+        }
+        ],
+        "candy": "Clefairy Candy",
+        "candy_count": 50,
+        "spawn_chance": 0.12,
+        "avg_spawns": 12,
+        "spawn_time": "22:00",
+        "multipliers": [2.0],
+        "weaknesses": ["Steel", "Poison"]
+    },
+    {
+        "id": 36,
+        "name": "Clefable",
+        "type": ["Fairy"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/d/d5/latest/20230717180839/Clefable.png/300px-Clefable.png",
+        "description": "Clefable is the evolved form of Clefairy. It is a highly intelligent Pokémon and is capable of using powerful Fairy-type moves. It is a nocturnal creature.",
+        "height": 1.3,
+        "weight": 40.0,
+        "abilities": ["Cute Charm", "Magic Guard"],
+        "stats": {
+        "hp": 95,
+        "attack": 70,
+        "defense": 73,
+        "special_attack": 95,
+        "special_defense": 90,
+        "speed": 60
+        },
+        "evolutions": ["Clefairy", "Clefable"],
+        "egg_groups": ["Fairy"],
+        "habitat": "Cave",
+        "capture_rate": 25,
+        "base_experience": 323,
+        "moves": [
+        {
+            "move_name": "Moonblast",
+            "level_learned_at": 1,
+            "move_type": "Fairy",
+            "power": 95,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Dazzling Gleam",
+            "level_learned_at": 1,
+            "move_type": "Fairy",
+            "power": 80,
+            "accuracy": 100
+        }
+        ],
+        "candy": "Clefairy Candy",
+        "candy_count": 100,
+        "spawn_chance": 0.05,
+        "avg_spawns": 5,
+        "spawn_time": "20:00",
+        "multipliers": [2.2],
+        "weaknesses": ["Steel", "Poison"]
+    },
+    {
+        "id": 37,
+        "name": "Vulpix",
+        "type": ["Fire"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/8/8d/latest/20230613015324/Vulpix.png/300px-Vulpix.png",
+        "description": "Vulpix is a small, fox-like Pokémon known for its fiery tail. It is often seen using its flames to warm its surroundings.",
+        "height": 0.6,
+        "weight": 9.9,
+        "abilities": ["Flash Fire", "Lucky Chant"],
+        "stats": {
+        "hp": 38,
+        "attack": 41,
+        "defense": 40,
+        "special_attack": 50,
+        "special_defense": 50,
+        "speed": 65
+        },
+        "evolutions": ["Vulpix", "Ninetales"],
+        "egg_groups": ["Field"],
+        "habitat": "Mountain",
+        "capture_rate": 190,
+        "base_experience": 60,
+        "moves": [
+        {
+            "move_name": "Ember",
+            "level_learned_at": 1,
+            "move_type": "Fire",
+            "power": 40,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Quick Attack",
+            "level_learned_at": 1,
+            "move_type": "Normal",
+            "power": 40,
+            "accuracy": 100
+        }
+        ],
+        "candy": "Vulpix Candy",
+        "candy_count": 50,
+        "spawn_chance": 0.15,
+        "avg_spawns": 15,
+        "spawn_time": "15:00",
+        "multipliers": [1.8],
+        "weaknesses": ["Water", "Rock", "Ground"]
+    },
+    {
+        "id": 38,
+        "name": "Ninetales",
+        "type": ["Fire"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/98/latest/20230613015530/Ninetales.png/300px-Ninetales.png",
+        "description": "Ninetales is the evolved form of Vulpix. It is a majestic Pokémon with multiple tails, each imbued with a flame. It is highly revered in many cultures.",
+        "height": 1.1,
+        "weight": 19.9,
+        "abilities": ["Flash Fire", "Drought"],
+        "stats": {
+        "hp": 73,
+        "attack": 76,
+        "defense": 75,
+        "special_attack": 81,
+        "special_defense": 100,
+        "speed": 100
+        },
+        "evolutions": ["Vulpix", "Ninetales"],
+        "egg_groups": ["Field"],
+        "habitat": "Mountain",
+        "capture_rate": 75,
+        "base_experience": 177,
+        "moves": [
+        {
+            "move_name": "Flamethrower",
+            "level_learned_at": 1,
+            "move_type": "Fire",
+            "power": 90,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Fire Blast",
+            "level_learned_at": 1,
+            "move_type": "Fire",
+            "power": 110,
+            "accuracy": 85
+        }
+        ],
+        "candy": "Vulpix Candy",
+        "candy_count": 100,
+        "spawn_chance": 0.08,
+        "avg_spawns": 8,
+        "spawn_time": "17:00",
+        "multipliers": [2.1],
+        "weaknesses": ["Water", "Rock", "Ground"]
+    },
+    {
+        "id": 39,
+        "name": "Jigglypuff",
+        "type": ["Normal", "Fairy"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/a/af/latest/20150110232910/Jigglypuff.png/300px-Jigglypuff.png",
+        "description": "Jigglypuff is a round, pink Pokémon with a propensity for singing. It uses its soothing voice to put its opponents to sleep, making it one of the most adorable Pokémon around.",
+        "height": 0.5,
+        "weight": 5.5,
+        "abilities": ["Cute Charm", "Competitive"],
+        "stats": {
+        "hp": 115,
+        "attack": 45,
+        "defense": 20,
+        "special_attack": 45,
+        "special_defense": 25,
+        "speed": 20
+        },
+        "evolutions": ["Jigglypuff", "Wigglytuff"],
+        "egg_groups": ["Fairy"],
+        "habitat": "Urban",
+        "capture_rate": 170,
+        "base_experience": 95,
+        "moves": [
+        {
+            "move_name": "Sing",
+            "level_learned_at": 1,
+            "move_type": "Normal",
+            "power": 0,
+            "accuracy": 55
+        },
+        {
+            "move_name": "Double-Edge",
+            "level_learned_at": 1,
+            "move_type": "Normal",
+            "power": 120,
+            "accuracy": 100
+        }
+        ],
+        "candy": "Jigglypuff Candy",
+        "candy_count": 50,
+        "spawn_chance": 0.10,
+        "avg_spawns": 10,
+        "spawn_time": "14:00",
+        "multipliers": [2.0],
+        "weaknesses": ["Steel", "Poison"]
+    },
+
+    {
+        "id": 40,
+        "name": "Wigglytuff",
+        "type": ["Normal", "Fairy"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/f/f1/latest/20220905202016/Wigglytuff.png/300px-Wigglytuff.png",
+        "description": "Wigglytuff is the evolved form of Jigglypuff. It is a strong, pink, round Pokémon known for its powerful voice that can cause any creature to fall asleep.",
+        "height": 1.0,
+        "weight": 12.0,
+        "abilities": ["Cute Charm", "Competitive"],
+        "stats": {
+        "hp": 140,
+        "attack": 70,
+        "defense": 45,
+        "special_attack": 85,
+        "special_defense": 50,
+        "speed": 45
+        },
+        "evolutions": ["Jigglypuff", "Wigglytuff"],
+        "egg_groups": ["Fairy"],
+        "habitat": "Urban",
+        "capture_rate": 50,
+        "base_experience": 240,
+        "moves": [
+        {
+            "move_name": "Hyper Voice",
+            "level_learned_at": 1,
+            "move_type": "Normal",
+            "power": 90,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Play Rough",
+            "level_learned_at": 1,
+            "move_type": "Fairy",
+            "power": 90,
+            "accuracy": 90
+        }
+        ],
+        "candy": "Jigglypuff Candy",
+        "candy_count": 100,
+        "spawn_chance": 0.07,
+        "avg_spawns": 7,
+        "spawn_time": "14:30",
+        "multipliers": [1.8],
+        "weaknesses": ["Steel", "Poison"]
+    },
+    {
+        "id": 41,
+        "name": "Zubat",
+        "type": ["Poison", "Flying"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/6/67/latest/20230617053751/Zubat.png/300px-Zubat.png",
+        "description": "Zubat is a small, bat-like Pokémon with large, winged ears. It is often seen in caves and uses its echo-location to navigate in the dark.",
+        "height": 0.8,
+        "weight": 7.5,
+        "abilities": ["Inner Focus", "Infiltrator"],
+        "stats": {
+        "hp": 40,
+        "attack": 45,
+        "defense": 35,
+        "special_attack": 30,
+        "special_defense": 40,
+        "speed": 70
+        },
+        "evolutions": ["Zubat", "Golbat"],
+        "egg_groups": ["Flying"],
+        "habitat": "Cave",
+        "capture_rate": 255,
+        "base_experience": 49,
+        "moves": [
+        {
+            "move_name": "Bite",
+            "level_learned_at": 1,
+            "move_type": "Dark",
+            "power": 60,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Supersonic",
+            "level_learned_at": 1,
+            "move_type": "Normal",
+            "power": 0,
+            "accuracy": 55
+        }
+        ],
+        "candy": "Zubat Candy",
+        "candy_count": 50,
+        "spawn_chance": 0.15,
+        "avg_spawns": 15,
+        "spawn_time": "00:00",
+        "multipliers": [2.0],
+        "weaknesses": ["Psychic", "Electric", "Ice", "Rock"]
+    },
+    {
+        "id": 42,
+        "name": "Golbat",
+        "type": ["Poison", "Flying"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/2/2c/latest/20230716212355/Golbat.png/300px-Golbat.png",
+        "description": "Golbat is the evolved form of Zubat. It is a larger bat Pokémon with powerful wings and is known for its speed and agility in flight.",
+        "height": 1.6,
+        "weight": 55.0,
+        "abilities": ["Inner Focus", "Infiltrator"],
+        "stats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 70,
+        "special_attack": 65,
+        "special_defense": 75,
+        "speed": 90
+        },
+        "evolutions": ["Zubat", "Golbat"],
+        "egg_groups": ["Flying"],
+        "habitat": "Cave",
+        "capture_rate": 190,
+        "base_experience": 159,
+        "moves": [
+        {
+            "move_name": "Air Cutter",
+            "level_learned_at": 1,
+            "move_type": "Flying",
+            "power": 60,
+            "accuracy": 95
+        },
+        {
+            "move_name": "Poison Fang",
+            "level_learned_at": 1,
+            "move_type": "Poison",
+            "power": 50,
+            "accuracy": 100
+        }
+        ],
+        "candy": "Zubat Candy",
+        "candy_count": 100,
+        "spawn_chance": 0.08,
+        "avg_spawns": 8,
+        "spawn_time": "23:00",
+        "multipliers": [1.9],
+        "weaknesses": ["Psychic", "Electric", "Ice", "Rock"]
+    },
+    {
+        "id": 43,
+        "name": "Oddish",
+        "type": ["Grass", "Poison"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/d/d9/latest/20230617054434/Oddish.png/300px-Oddish.png",
+        "description": "Oddish is a small, blue, plant-like Pokémon that is often found in shady areas. It is known for releasing toxic spores to defend itself.",
+        "height": 0.5,
+        "weight": 5.4,
+        "abilities": ["Chlorophyll", "Run Away"],
+        "stats": {
+        "hp": 45,
+        "attack": 50,
+        "defense": 55,
+        "special_attack": 75,
+        "special_defense": 65,
+        "speed": 30
+        },
+        "evolutions": ["Oddish", "Gloom", "Vileplume"],
+        "egg_groups": ["Fairy", "Grass"],
+        "habitat": "Forest",
+        "capture_rate": 255,
+        "base_experience": 64,
+        "moves": [
+        {
+            "move_name": "Acid",
+            "level_learned_at": 1,
+            "move_type": "Poison",
+            "power": 40,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Sweet Scent",
+            "level_learned_at": 1,
+            "move_type": "Normal",
+            "power": 0,
+            "accuracy": 100
+        }
+        ],
+        "candy": "Oddish Candy",
+        "candy_count": 50,
+        "spawn_chance": 0.10,
+        "avg_spawns": 10,
+        "spawn_time": "06:00",
+        "multipliers": [1.8],
+        "weaknesses": ["Fire", "Ice", "Flying", "Psychic"]
+    },
+    {
+        "id": 44,
+        "name": "Gloom",
+        "type": ["Grass", "Poison"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/59/latest/20230617054450/Gloom.png/300px-Gloom.png",
+        "description": "Gloom is the evolved form of Oddish. It is known for its unpleasant, foul odor that it uses to defend itself from predators and attackers.",
+        "height": 0.8,
+        "weight": 8.6,
+        "abilities": ["Chlorophyll", "Stench"],
+        "stats": {
+        "hp": 60,
+        "attack": 65,
+        "defense": 70,
+        "special_attack": 85,
+        "special_defense": 75,
+        "speed": 40
+        },
+        "evolutions": ["Oddish", "Gloom", "Vileplume"],
+        "egg_groups": ["Fairy", "Grass"],
+        "habitat": "Forest",
+        "capture_rate": 120,
+        "base_experience": 138,
+        "moves": [
+        {
+            "move_name": "Sludge Bomb",
+            "level_learned_at": 1,
+            "move_type": "Poison",
+            "power": 90,
+            "accuracy": 100
+        },
+        {
+            "move_name": "SolarBeam",
+            "level_learned_at": 1,
+            "move_type": "Grass",
+            "power": 120,
+            "accuracy": 100
+        }
+        ],
+        "candy": "Oddish Candy",
+        "candy_count": 100,
+        "spawn_chance": 0.05,
+        "avg_spawns": 5,
+        "spawn_time": "10:00",
+        "multipliers": [2.0],
+        "weaknesses": ["Fire", "Ice", "Flying", "Psychic"]
+    },
+
+    {
+        "id": 45,
+        "name": "Vileplume",
+        "type": ["Grass", "Poison"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/3/32/latest/20230617054502/Vileplume.png/300px-Vileplume.png",
+        "description": "Vileplume is the evolved form of Gloom. It has a large, vibrant flower on its back, known for its strong, foul-smelling scent that can stun its enemies.",
+        "height": 1.2,
+        "weight": 18.6,
+        "abilities": ["Chlorophyll", "Effect Spore"],
+        "stats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 85,
+        "special_attack": 90,
+        "special_defense": 75,
+        "speed": 50
+        },
+        "evolutions": ["Oddish", "Gloom", "Vileplume"],
+        "egg_groups": ["Fairy", "Grass"],
+        "habitat": "Forest",
+        "capture_rate": 45,
+        "base_experience": 219,
+        "moves": [
+        {
+            "move_name": "SolarBeam",
+            "level_learned_at": 1,
+            "move_type": "Grass",
+            "power": 120,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Toxic",
+            "level_learned_at": 1,
+            "move_type": "Poison",
+            "power": 0,
+            "accuracy": 90
+        }
+        ],
+        "candy": "Oddish Candy",
+        "candy_count": 100,
+        "spawn_chance": 0.05,
+        "avg_spawns": 5,
+        "spawn_time": "10:30",
+        "multipliers": [1.8],
+        "weaknesses": ["Fire", "Ice", "Flying", "Psychic"]
+    },
+    {
+        "id": 46,
+        "name": "Paras",
+        "type": ["Bug", "Grass"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/e/ee/latest/20230627050525/Paras.png/300px-Paras.png",
+        "description": "Paras is a small, insect-like Pokémon with mushrooms growing on its back. These mushrooms can release spores that it uses to defend itself.",
+        "height": 0.3,
+        "weight": 5.4,
+        "abilities": ["Effect Spore", "Dry Skin"],
+        "stats": {
+        "hp": 35,
+        "attack": 70,
+        "defense": 55,
+        "special_attack": 45,
+        "special_defense": 55,
+        "speed": 25
+        },
+        "evolutions": ["Paras", "Parasect"],
+        "egg_groups": ["Bug"],
+        "habitat": "Forest",
+        "capture_rate": 255,
+        "base_experience": 60,
+        "moves": [
+        {
+            "move_name": "Spore",
+            "level_learned_at": 1,
+            "move_type": "Grass",
+            "power": 0,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Stun Spore",
+            "level_learned_at": 1,
+            "move_type": "Grass",
+            "power": 0,
+            "accuracy": 75
+        }
+        ],
+        "candy": "Paras Candy",
+        "candy_count": 50,
+        "spawn_chance": 0.12,
+        "avg_spawns": 12,
+        "spawn_time": "09:00",
+        "multipliers": [2.1],
+        "weaknesses": ["Fire", "Flying", "Ice", "Bug"]
+    },
+    {
+        "id": 47,
+        "name": "Parasect",
+        "type": ["Bug", "Grass"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/6/62/latest/20230627050534/Parasect.png/300px-Parasect.png",
+        "description": "Parasect is the evolved form of Paras. The mushrooms on its back are much larger, and they control Parasect's movements. It uses its spores for defense.",
+        "height": 1.0,
+        "weight": 29.5,
+        "abilities": ["Effect Spore", "Dry Skin"],
+        "stats": {
+        "hp": 60,
+        "attack": 95,
+        "defense": 80,
+        "special_attack": 60,
+        "special_defense": 80,
+        "speed": 30
+        },
+        "evolutions": ["Paras", "Parasect"],
+        "egg_groups": ["Bug"],
+        "habitat": "Forest",
+        "capture_rate": 120,
+        "base_experience": 134,
+        "moves": [
+        {
+            "move_name": "Spore",
+            "level_learned_at": 1,
+            "move_type": "Grass",
+            "power": 0,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Leech Life",
+            "level_learned_at": 1,
+            "move_type": "Bug",
+            "power": 20,
+            "accuracy": 100
+        }
+        ],
+        "candy": "Paras Candy",
+        "candy_count": 100,
+        "spawn_chance": 0.03,
+        "avg_spawns": 3,
+        "spawn_time": "12:00",
+        "multipliers": [1.6],
+        "weaknesses": ["Fire", "Flying", "Ice", "Bug"]
+    },
+    {
+        "id": 48,
+        "name": "Venonat",
+        "type": ["Bug", "Poison"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/d/d3/latest/20230617054458/Venonat.png/300px-Venonat.png",
+        "description": "Venonat is a small, bug-like Pokémon covered with purple fur. It uses its large, compound eyes to detect objects and enemies in its surroundings.",
+        "height": 1.0,
+        "weight": 30.0,
+        "abilities": ["Compound Eyes", "Run Away"],
+        "stats": {
+        "hp": 60,
+        "attack": 55,
+        "defense": 50,
+        "special_attack": 40,
+        "special_defense": 55,
+        "speed": 45
+        },
+        "evolutions": ["Venonat", "Venomoth"],
+        "egg_groups": ["Bug"],
+        "habitat": "Forest",
+        "capture_rate": 190,
+        "base_experience": 61,
+        "moves": [
+        {
+            "move_name": "Tackle",
+            "level_learned_at": 1,
+            "move_type": "Normal",
+            "power": 40,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Leech Life",
+            "level_learned_at": 1,
+            "move_type": "Bug",
+            "power": 20,
+            "accuracy": 100
+        }
+        ],
+        "candy": "Venonat Candy",
+        "candy_count": 50,
+        "spawn_chance": 0.15,
+        "avg_spawns": 15,
+        "spawn_time": "05:00",
+        "multipliers": [2.0],
+        "weaknesses": ["Fire", "Flying", "Psychic"]
+    },
+    {
+        "id": 49,
+        "name": "Venomoth",
+        "type": ["Bug", "Poison"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/c/c2/latest/20230617054514/Venomoth.png/300px-Venomoth.png",
+        "description": "Venomoth is the evolved form of Venonat. It has large, purple wings and is known for its ability to fly at high speeds and release toxic spores.",
+        "height": 1.5,
+        "weight": 12.5,
+        "abilities": ["Compound Eyes", "Tinted Lens"],
+        "stats": {
+        "hp": 70,
+        "attack": 65,
+        "defense": 60,
+        "special_attack": 90,
+        "special_defense": 75,
+        "speed": 90
+        },
+        "evolutions": ["Venonat", "Venomoth"],
+        "egg_groups": ["Bug"],
+        "habitat": "Forest",
+        "capture_rate": 150,
+        "base_experience": 158,
+        "moves": [
+        {
+            "move_name": "Bug Buzz",
+            "level_learned_at": 1,
+            "move_type": "Bug",
+            "power": 90,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Poison Fang",
+            "level_learned_at": 1,
+            "move_type": "Poison",
+            "power": 50,
+            "accuracy": 100
+        }
+        ],
+        "candy": "Venonat Candy",
+        "candy_count": 100,
+        "spawn_chance": 0.08,
+        "avg_spawns": 8,
+        "spawn_time": "07:00",
+        "multipliers": [1.9],
+        "weaknesses": ["Fire", "Flying", "Psychic"]
+    },
+    {
+        "id": 50,
+        "name": "Diglett",
+        "type": ["Ground"],
+        "img": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/7/7a/latest/20200411223149/Diglett.png/300px-Diglett.png",
+        "description": "Diglett is a small, mole-like Pokémon that is often found underground. It can tunnel through the earth at high speeds and is known for its ability to surprise its foes.",
+        "height": 0.2,
+        "weight": 0.8,
+        "abilities": ["Magma Armor", "Sand Veil"],
+        "stats": {
+        "hp": 10,
+        "attack": 55,
+        "defense": 25,
+        "special_attack": 35,
+        "special_defense": 45,
+        "speed": 95
+        },
+        "evolutions": ["Diglett", "Dugtrio"],
+        "egg_groups": ["Field"],
+        "habitat": "Underground",
+        "capture_rate": 255,
+        "base_experience": 49,
+        "moves": [
+        {
+            "move_name": "Mud-Slap",
+            "level_learned_at": 1,
+            "move_type": "Ground",
+            "power": 20,
+            "accuracy": 100
+        },
+        {
+            "move_name": "Dig",
+            "level_learned_at": 1,
+            "move_type": "Ground",
+            "power": 80,
+            "accuracy": 100
+        }
+        ],
+        "candy": "Diglett Candy",
+        "candy_count": 50,
+        "spawn_chance": 0.12,
+        "avg_spawns": 12,
+        "spawn_time": "09:00",
+        "multipliers": [2.1],
+        "weaknesses": ["Water", "Ice", "Grass"]
+    }
+
+
+  ]
+  
+
+
+
